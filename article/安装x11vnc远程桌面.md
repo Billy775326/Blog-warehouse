@@ -120,3 +120,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 ```
+## win安装VNC Viewer。
+
+  安装完VNC Viewer后，输入你的服务器的IP地址和显示号（例如，192.168.1.2:1），然后输入你之前设置的密码。
+
+  注意：别忘了在服务器防火墙中开放VNC服务器所使用的端口（默认为5900+显示号）。例如，如果你的显示号为1，那么你需要开放5901端口
